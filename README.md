@@ -1,77 +1,56 @@
-# Starborn Acadamy
+# Dungeon Extension v2 Resurrected, Shared Scenarios
 
-Exported AI Dungeon adventures/scenarios for the **Dungeon Extension v2 Resurrected** browser
-extension. Add this repo under the extension's **Settings, Scenarios, GitHub Repos**, then import a
-file from the adventure picker's **Import, From GitHub** tab.
+Exported AI Dungeon adventures for the **Dungeon Extension v2 Resurrected** browser extension.
 
-## Large files must use Git LFS (over 50 MB)
+## Using these in the extension
 
-Any adventure/scenario `.json` export larger than **50 MB** must be committed with **Git LFS**
-(https://git-lfs.com/), not as a plain file.
+1. In the extension, open **Settings, Scenarios, GitHub Repos** and add this repo
+   (`Oratorian/dexv2res-repo`, or its github.com URL).
+2. Open the adventure picker, choose **Import, From GitHub**, pick this repo, and import an
+   adventure.
 
-Why:
+The extension reads the adventures from this repo's **latest GitHub Release** (see below).
 
-- GitHub warns on any file over 50 MB and **hard-rejects any push containing a file over 100 MB**.
-- These exports embed their icons/portraits as base64, so a single adventure grows past 50 MB fast
-  (the one in this repo is ~70 MB).
-- LFS keeps the repo clone small and lets the big file be pushed at all.
+> Importing from a release is currently **Firefox only**: GitHub's release-asset CDN sends no CORS
+> headers, which the Firefox build can use with its host permissions but the Chrome build cannot.
 
-### 1. One-time setup
+## How adventures are hosted here: GitHub Releases (not the git tree, not Git LFS)
 
-Install Git LFS from https://git-lfs.com/, then run once per machine/account:
+Adventures are attached as **assets on a GitHub Release**, not committed as normal files and not with
+Git LFS. This is deliberate:
+
+- These exports embed every icon/portrait as base64, so they are large (the ones here are ~73 MB and
+  ~166 MB). GitHub **hard-rejects any file over 100 MB** in the git tree, so the 166 MB one cannot be
+  committed there at all.
+- **Git LFS is metered.** Every LFS download counts against the repo owner's monthly LFS bandwidth,
+  and GitHub bills overages (they can accrue whether or not a payment method is on file). A popular
+  adventure downloaded by many people would burn through it fast.
+- **Release assets are not metered**, allow up to **2 GB** each, and download directly. No LFS, no
+  bandwidth billing, no 100 MB limit.
+
+## Adding or updating an adventure
+
+1. In the extension, export the adventure to a `.json` file.
+2. On GitHub, create a Release (or edit the existing one) and **attach the `.json` as a release
+   asset**. Do **not** commit the large `.json` into the repo tree.
+3. Make sure that release is the **latest** one; the extension only reads the latest release.
+
+That is all: the extension lists the latest release's `.json` assets and imports the one you pick.
+
+## Important: keep adventure `.json` out of the git tree
+
+The extension uses the release assets **only when the git tree contains no `.json` files**. If an
+adventure `.json` is also committed to the tree, the extension lists that tree copy instead and
+ignores the release assets. So keep large exports in Releases only.
+
+If this repo still has `.json` exports committed (LFS or otherwise), remove them from the tree and
+drop the LFS tracking, then rely on the release assets:
 
 ```bash
-git lfs install
-```
-
-### 2. Track the large export before committing it
-
-LFS matches by file path/pattern, not by size, so add each big export to tracking (or use a pattern
-for your large files). Keep small files (split story-card JSON, etc.) out of LFS to save bandwidth.
-
-```bash
-git lfs track "Your_Big_Adventure.json"
-git add .gitattributes
-```
-
-This writes a line to `.gitattributes` like:
-
-```
-Your_Big_Adventure.json filter=lfs diff=lfs merge=lfs -text
-```
-
-### 3. Commit and push as usual
-
-```bash
-git add Your_Big_Adventure.json
-git commit -m "Add Your Big Adventure"
+git rm --cached "*.json"          # stop tracking the exports (keeps your local files)
+git rm .gitattributes             # drop the LFS rules if they only covered those exports
+git commit -m "Host adventures as release assets instead of tree files"
 git push origin main
 ```
 
-### Already committed a large file without LFS?
-
-If a big file is already in the history as a normal blob (or your push was rejected), convert it,
-then force-push the rewritten history:
-
-```bash
-git lfs migrate import --include="Your_Big_Adventure.json"
-git push --force origin main
-```
-
-See `git lfs migrate` for more options.
-
-## Notes
-
-- `raw.githubusercontent.com` serves LFS-tracked files in full, so LFS scenarios import normally in
-  the extension; no special handling is needed on the reader's side.
-- Git LFS the tool has no quota of its own; any limit is set by the host. On GitHub, Free and Pro
-  accounts include 10 GiB of LFS storage and 10 GiB of download bandwidth per month (Team and
-  Enterprise get 250 GiB), and usage past that is billed per GiB. Every download counts toward that
-  bandwidth, including each import through `raw.githubusercontent.com`, so a very large, very popular
-  file adds up. Trim the file where you can (for example, reference remote image URLs instead of
-  embedding base64) before reaching for LFS. See
-  https://docs.github.com/billing/managing-billing-for-git-large-file-storage/about-billing-for-git-large-file-storage
-
-## Currently LFS-tracked
-
-- `Starborn_Acadamy_adventure.json` (~70 MB)
+Small, non-adventure files (this README, `.gitignore`) are fine to keep in the tree.
