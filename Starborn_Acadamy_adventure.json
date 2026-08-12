@@ -442,25 +442,6 @@
         "limit": "none",
         "preset": "default",
         "audioClips": []
-      },
-      "3d138a79-2bde-4ce4-8bcf-c513b030ec86": {
-        "id": "3d138a79-2bde-4ce4-8bcf-c513b030ec86",
-        "name": "Jason",
-        "triggers": "Jason,player,hero",
-        "type": "character",
-        "icons": [
-          "https://trinetra.mahesvara.cloud/i/8WLfp5poH44_"
-        ],
-        "iconIndex": 0,
-        "graphics": [
-          "https://trinetra.mahesvara.cloud/i/-wpUXFebUd9U"
-        ],
-        "graphicIndex": 0,
-        "useCustomColor": false,
-        "color": "#f8ae2c",
-        "limit": "none",
-        "preset": "default",
-        "audioClips": []
       }
     }
   }
