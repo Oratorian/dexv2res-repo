@@ -1,0 +1,467 @@
+{
+  "version": 1,
+  "exportedAt": 1786560738441,
+  "adventure": {
+    "id": "87bea1bf-c1bb-471a-8e28-e8e073cacca8",
+    "name": "Starborn Acadamy",
+    "createdAt": 1785539694728,
+    "storyCards": {
+      "c4e87bba-e3f6-45b5-866d-fa5b96d9b475": {
+        "id": "c4e87bba-e3f6-45b5-866d-fa5b96d9b475",
+        "name": "Commander Kael Draven",
+        "triggers": "Commander, Kael Draven",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/pqISpKBEer6C"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/zfACBMvCOW6E"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "2886d94f-db4e-4ce6-b0ee-5bee791d281d": {
+        "id": "2886d94f-db4e-4ce6-b0ee-5bee791d281d",
+        "name": "Professor Solis Ren",
+        "triggers": "Professor Solis Ren, Solis Ren, Solis",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/8QG65nrAUTus"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/Z33H_TWULiQR"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "d5667c99-9779-41fb-923e-fba492c524e8": {
+        "id": "d5667c99-9779-41fb-923e-fba492c524e8",
+        "name": "Rin Talis",
+        "triggers": "Rin",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/K2J7y_YKLZn2"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/nvI7YEEdYVHa"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "01711c5a-0d0c-4d9b-8103-0bbe99c8ce77": {
+        "id": "01711c5a-0d0c-4d9b-8103-0bbe99c8ce77",
+        "name": "Zarek Void",
+        "triggers": "Zarek",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/aDJDrhslFUrX"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/MM9zfE0Zb5mu"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "e0ef4581-dc06-45db-be8a-2c16efcc2a00": {
+        "id": "e0ef4581-dc06-45db-be8a-2c16efcc2a00",
+        "name": "Vexa-9",
+        "triggers": "Vexa-9",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/4NQOwOm-l0RG"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/xF_EyqormA9D"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "7233ded0-0cd5-494e-bb0c-c8c18ef438e5": {
+        "id": "7233ded0-0cd5-494e-bb0c-c8c18ef438e5",
+        "name": "Jace Titan",
+        "triggers": "Jace",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/HKyr7Aym2vU5"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/p40qSzC8cjxx"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "2caa39ab-f76b-43bc-9da3-a5b306d03fd9": {
+        "id": "2caa39ab-f76b-43bc-9da3-a5b306d03fd9",
+        "name": "Headmaster Orion Voss",
+        "triggers": "Headmaster, Orion Voss",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/cAON4NqGVftd"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/uUFyYFnF6Mrm"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "ff740ca3-9bd9-4a8b-aea6-4f37f950ea6e": {
+        "id": "ff740ca3-9bd9-4a8b-aea6-4f37f950ea6e",
+        "name": "Captain Lyra Nova",
+        "triggers": "Captain, Lyra Nova",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/bwol6rkoUuvb"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/6sppZxTlu70B"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "7367f9fc-41e3-4952-a65c-6ecd671f9c82": {
+        "id": "7367f9fc-41e3-4952-a65c-6ecd671f9c82",
+        "name": "Professor Xylen",
+        "triggers": "Professor Xylen, Xylen",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/F9C9cVNnN131"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/d4AEBY_tcZv8"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "96d4a5dc-af20-4177-8298-d1a02ff35bc5": {
+        "id": "96d4a5dc-af20-4177-8298-d1a02ff35bc5",
+        "name": "Professor Aria Volt",
+        "triggers": "Professor Aria Volt, Aria Volt, Aria",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/gJBsyWxj7jvM"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/XWgsWpX7ulMV"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "053469ad-e8c2-4226-86cc-abf6518ea20d": {
+        "id": "053469ad-e8c2-4226-86cc-abf6518ea20d",
+        "name": "Ambassador Selene Astra",
+        "triggers": "Ambassador, Selene Astra",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/c9N-fH9keIgy"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/CIzmhnTEWK17"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "2b34ec94-dda2-4b83-8501-85f25a02d546": {
+        "id": "2b34ec94-dda2-4b83-8501-85f25a02d546",
+        "name": "Kara Vex",
+        "triggers": "Kara",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/WEr7xZ-sUSjH"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/O0R87OMOImNj"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "c5f011f4-6335-42b1-84c4-32f9726680d0": {
+        "id": "c5f011f4-6335-42b1-84c4-32f9726680d0",
+        "name": "Elias Quill",
+        "triggers": "Elias",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/hLxvVAlQHe3n"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/C-LowLU63d0i"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "0a1b4308-c444-4133-bd1d-56274b426cd4": {
+        "id": "0a1b4308-c444-4133-bd1d-56274b426cd4",
+        "name": "Nyra Sol",
+        "triggers": "Nyra",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/assaQIwzN_09"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/8rZLypniXrfv"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "28a334d4-e01a-49a0-a0dc-6433100f6aea": {
+        "id": "28a334d4-e01a-49a0-a0dc-6433100f6aea",
+        "name": "Galactic Academy of Starborn",
+        "triggers": "Galactic Academy of Starborn",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/DbLXlk6jObEz"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/ev7a4JcncKN0"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "f0991533-28c7-4d3f-80b4-be3844e2612c": {
+        "id": "f0991533-28c7-4d3f-80b4-be3844e2612c",
+        "name": "The Rift Chambers",
+        "triggers": "The Rift Chambers",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/H5iNF7UDxCCB"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/CrEOuD4ScU4j"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "f3c3ad70-32ce-40bb-98b2-80f56148a27c": {
+        "id": "f3c3ad70-32ce-40bb-98b2-80f56148a27c",
+        "name": "Stellar Docks",
+        "triggers": "Stellar Docks",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/0fJ2FUGXpaiC"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/mUyOE7GHvOhj"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "19511509-3703-4ae4-b056-83615c8ca10a": {
+        "id": "19511509-3703-4ae4-b056-83615c8ca10a",
+        "name": "Celestial Library",
+        "triggers": "Celestial Library",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/ugS5S5kSJQgD"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/D12NrTwOD-Tx"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "39b04d99-3f58-4ec8-9018-888911beafb3": {
+        "id": "39b04d99-3f58-4ec8-9018-888911beafb3",
+        "name": "The Nexus Arena",
+        "triggers": "The Nexus Arena",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/EhwuHQibmmbU"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/rowMbFHsia-F"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "09c0572e-0317-49ab-9433-2ddab91a4fae": {
+        "id": "09c0572e-0317-49ab-9433-2ddab91a4fae",
+        "name": "Hall of Origins",
+        "triggers": "Hall of Origins",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/rUGYLEDO0MJt"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/xdaNUoWBiT2c"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "9bf4c6f8-b5a1-4c34-9fc3-a8e4023d7cb5": {
+        "id": "9bf4c6f8-b5a1-4c34-9fc3-a8e4023d7cb5",
+        "name": "The Grand Spire",
+        "triggers": "The Grand Spire",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/pBp2Lzcr9mnl"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/49YX-YpT_1bt"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "5cde29fc-5364-4247-a841-252c128fd464": {
+        "id": "5cde29fc-5364-4247-a841-252c128fd464",
+        "name": "Astra Prime",
+        "triggers": "Astra Prime",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/Y2IbVUicVXbe"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/B6wA1EVOWcT-"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "5c9bad37-5b74-4cd9-a792-4ac8551c381a": {
+        "id": "5c9bad37-5b74-4cd9-a792-4ac8551c381a",
+        "name": "The Core",
+        "triggers": "The Core",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/QCt5Ndmav-YV"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/LRgFj85N1RKF"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      },
+      "3d138a79-2bde-4ce4-8bcf-c513b030ec86": {
+        "id": "3d138a79-2bde-4ce4-8bcf-c513b030ec86",
+        "name": "Jason",
+        "triggers": "Jason,player,hero",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/8WLfp5poH44_"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/-wpUXFebUd9U"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      }
+    }
+  }
+}
