@@ -345,26 +345,6 @@
         "limit": "none",
         "preset": "default",
         "audioClips": []
-      },
-      "0d072cb3-2a1a-4360-aac5-dbc65e3eb592": {
-        "id": "0d072cb3-2a1a-4360-aac5-dbc65e3eb592",
-        "name": "Elarion",
-        "type": "character",
-        "triggers": "Elarion",
-        "aidId": "270497642",
-        "icons": [
-          "https://trinetra.mahesvara.cloud/i/BzSsdhFLbs7q"
-        ],
-        "iconIndex": 0,
-        "graphics": [
-          "https://trinetra.mahesvara.cloud/i/BzSsdhFLbs7q"
-        ],
-        "graphicIndex": 0,
-        "useCustomColor": false,
-        "color": "#f8ae2c",
-        "limit": "none",
-        "preset": "default",
-        "audioClips": []
       }
     },
     "aidShortId": "nZ_zYnbdFck6",
