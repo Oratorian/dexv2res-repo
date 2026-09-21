@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "exportedAt": 1789999397345,
+  "adventure": {
+    "id": "23cb1b67-3211-4670-827c-5759602e9857",
+    "name": "Test Scenario",
+    "createdAt": 1789997132521,
+    "storyCards": {
+      "12171bde-c369-4440-9949-ab8f8e249a5d": {
+        "id": "12171bde-c369-4440-9949-ab8f8e249a5d",
+        "name": "The Merchant's Cusp (Shopping Quarters)",
+        "triggers": "The Merchant's Cusp, Shopping Quarters",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/t43RET1cLOd7"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/t43RET1cLOd7"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "557632848"
+      },
+      "5dbde446-ef04-4674-b55a-562018f91d5e": {
+        "id": "5dbde446-ef04-4674-b55a-562018f91d5e",
+        "name": "The Old Quarter",
+        "triggers": "The Old Quarter, Housing Quarter",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/U_SYx6eEdZWf"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/U_SYx6eEdZWf"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "322293412"
+      },
+      "6e722ef4-1ea4-402e-b876-1f4255543290": {
+        "id": "6e722ef4-1ea4-402e-b876-1f4255543290",
+        "name": "The Royal Spire",
+        "triggers": "The Royal Spire, The Royal Quarters",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/M8T6s8rv7MHo"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/M8T6s8rv7MHo"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "259057192"
+      },
+      "7efe90d4-bafe-463a-a736-4482dfb1c5aa": {
+        "id": "7efe90d4-bafe-463a-a736-4482dfb1c5aa",
+        "name": "Aerthos",
+        "triggers": "Aerthos",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/JzH178lEg7Ni"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/JzH178lEg7Ni"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "647866513"
+      },
+      "cd203ffc-290b-44e5-a1f3-7a7c0d2fa613": {
+        "id": "cd203ffc-290b-44e5-a1f3-7a7c0d2fa613",
+        "name": "Veridia",
+        "triggers": "Veridia, The Emerald City, The Emerald of Aerthos, The Capitol",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/9OVWYzG85XTf"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/9OVWYzG85XTf"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "578651482"
+      },
+      "9264b445-5fb4-435f-86d0-6828abe3a3d6": {
+        "id": "9264b445-5fb4-435f-86d0-6828abe3a3d6",
+        "name": "Levros",
+        "triggers": "Levros",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/7UAB8SrPgmsK"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/7UAB8SrPgmsK"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "363811066"
+      },
+      "887d1dd9-e88f-493f-a81d-86ce6a652f04": {
+        "id": "887d1dd9-e88f-493f-a81d-86ce6a652f04",
+        "name": "Sapphy",
+        "triggers": "Sapphy, Sapphiragos",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/AebEKhxtpoR-"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/bCsG1xrhd3gB"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "919889466"
+      },
+      "bb020bfb-8052-4dab-ae65-a30847a27f94": {
+        "id": "bb020bfb-8052-4dab-ae65-a30847a27f94",
+        "name": "Nyxadra",
+        "triggers": "Nyx, Nyxie, Nyxadra, dragon, black dragon, prep chef",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/ZTKcNVq6vJ8G"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/HNXeVUhBYbFg"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "286389708"
+      },
+      "c82f3871-2efc-40de-848f-b17b31f022e6": {
+        "id": "c82f3871-2efc-40de-848f-b17b31f022e6",
+        "name": "Serastra",
+        "triggers": "Sera, Serastra",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/avPDAcFFFlml"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/lWohTgvfaFVo"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "184085554"
+      },
+      "8bbdddc3-ed1f-4d1c-bbe3-8e5eae375e41": {
+        "id": "8bbdddc3-ed1f-4d1c-bbe3-8e5eae375e41",
+        "name": "Coral",
+        "triggers": "Corrilygos, Coral",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/xp5gdEwjxOXj"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/BKsRCBrNY6yk"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "130705270"
+      },
+      "2e019a01-72ad-4f6f-9306-18e4126243b4": {
+        "id": "2e019a01-72ad-4f6f-9306-18e4126243b4",
+        "name": "Tiamat",
+        "triggers": "Tiamat, mother, mother of dragons",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/XA5kGxLV2hlk"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/pbdqTj0DLT3w"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "590342473"
+      },
+      "7cd5188a-ebc5-430a-86cd-a1e4b8385330": {
+        "id": "7cd5188a-ebc5-430a-86cd-a1e4b8385330",
+        "name": "Vespera Valerus",
+        "triggers": "Vespera, Ves",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/ivXEXUR6YJIK"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/OLkmhcRf61h1"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "25015197"
+      },
+      "9c3d43d0-45c8-46dc-bbdd-6265d44e95f5": {
+        "id": "9c3d43d0-45c8-46dc-bbdd-6265d44e95f5",
+        "name": "The Underworks",
+        "triggers": "The Underworks, The Underbelly, Dwarven Quarter",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/BOa_YKxe2Rye"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/BOa_YKxe2Rye"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "555565848"
+      },
+      "10cb6b7e-2c6b-455c-b3d3-f253032cb6ae": {
+        "id": "10cb6b7e-2c6b-455c-b3d3-f253032cb6ae",
+        "name": "Sage Harrow",
+        "triggers": "Sage",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/4NOPZIkoRNpH"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/z-u6egYEMpjd"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "896994761"
+      },
+      "52c8b285-79ac-4f71-aca0-ae39ad55e169": {
+        "id": "52c8b285-79ac-4f71-aca0-ae39ad55e169",
+        "name": "Lysandra \"Lys\" Moongale",
+        "triggers": "Lysandra, Lys",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/JrYWk5j1JsDK"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/0JMQxG6MqwUa"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "429266694"
+      },
+      "9ce0a579-feaf-4c67-bc23-a3063384a177": {
+        "id": "9ce0a579-feaf-4c67-bc23-a3063384a177",
+        "name": "Faelar",
+        "triggers": "Faelar",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/wiD8XEvWWxo9"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/jVcZ-U6HnZ9L"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "683903950"
+      },
+      "bfb007a6-9d81-480f-a0c8-16cfb29f1351": {
+        "id": "bfb007a6-9d81-480f-a0c8-16cfb29f1351",
+        "name": "The Dragon Cafe",
+        "triggers": "Dragon Cafe, The Cafe, the Cafe, the cafe, The Dragon Cafe",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/HRDuisM47-Bp"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/HRDuisM47-Bp"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "901750700"
+      }
+    },
+    "aidShortId": "nZ_zYnbdFck6",
+    "aidScenarioId": "11976277"
+  }
+}
