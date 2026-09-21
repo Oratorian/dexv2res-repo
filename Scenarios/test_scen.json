@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "exportedAt": 1789999397345,
   "adventure": {
     "id": "23cb1b67-3211-4670-827c-5759602e9857",
@@ -7,12 +7,12 @@
     "createdAt": 1789997132521,
     "storyCards": {
       "12171bde-c369-4440-9949-ab8f8e249a5d": {
-        "id": "12171bde-c369-4440-9949-ab8f8e249a5f",
+        "id": "12171bde-c369-4440-9949-ab8f8e249a5d",
         "name": "The Merchant's Cusp (Shopping Quarters)",
         "triggers": "The Merchant's Cusp, Shopping Quarters",
         "type": "location",
         "icons": [
-          ""
+          "https://trinetra.mahesvara.cloud/i/t43RET1cLOd7"
         ],
         "iconIndex": 0,
         "graphics": [
