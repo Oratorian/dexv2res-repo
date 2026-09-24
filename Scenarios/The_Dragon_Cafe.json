@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 1.1,
   "exportedAt": 1789999397345,
   "adventure": {
     "id": "23cb1b67-3211-4670-827c-5648602e9857",
@@ -149,7 +149,7 @@
       "bb020bfb-8052-4dab-ae65-a30847a27f94": {
         "id": "bb020bfb-8052-4dab-ae65-a30847a27f94",
         "name": "Nyxadra",
-        "triggers": "Nyx, Nyxie, Nyxadra, dragon, black dragon, prep chef",
+        "triggers": "Nyx, Nyxie, Nyxadra",
         "type": "character",
         "icons": [
           "https://trinetra.mahesvara.cloud/i/ZTKcNVq6vJ8G"
