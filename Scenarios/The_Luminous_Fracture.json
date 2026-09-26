@@ -1,0 +1,330 @@
+{
+  "version": 1,
+  "exportedAt": 1790419157158,
+  "adventure": {
+    "id": "e63273ba-e314-45ec-8c82-1460f87aa70f",
+    "name": "The Luminous Fracture",
+    "createdAt": 1790417976959,
+    "storyCards": {
+      "332b4997-612a-4f42-8c3f-0cadad464bdc": {
+        "id": "332b4997-612a-4f42-8c3f-0cadad464bdc",
+        "name": "Kael",
+        "triggers": "Kael",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/J-beJf2r98n5"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/htulTgHQRkPB"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "109525996"
+      },
+      "a77df417-93d8-4200-9ebc-0739e8b92e1a": {
+        "id": "a77df417-93d8-4200-9ebc-0739e8b92e1a",
+        "name": "Asha",
+        "triggers": "Asha",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/NKrYVI6q6zAt"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/NLpnwkztOSVC"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "26729019"
+      },
+      "f0512eb0-195a-4ed1-a873-d2a31967b11d": {
+        "id": "f0512eb0-195a-4ed1-a873-d2a31967b11d",
+        "name": "Choir",
+        "triggers": "Choir",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/U1WOBRnkeSf3"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/uXoLnz0xMGdk"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "318827664"
+      },
+      "0bee4fcc-1227-4920-896b-1cff872184f8": {
+        "id": "0bee4fcc-1227-4920-896b-1cff872184f8",
+        "name": "The Drifter",
+        "triggers": "The Drifter",
+        "type": "character",
+        "icons": [],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/6-WOkXj3xEtk"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "411308079"
+      },
+      "360748e8-8eec-432c-9a05-71568a3ecba0": {
+        "id": "360748e8-8eec-432c-9a05-71568a3ecba0",
+        "name": "The Luminous Riftshore",
+        "triggers": "Luminous Riftshore",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/iXHJkdssDjF6"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/iXHJkdssDjF6"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "15577701"
+      },
+      "9e7d088a-3b78-4306-84e8-41bbe6e5299a": {
+        "id": "9e7d088a-3b78-4306-84e8-41bbe6e5299a",
+        "name": "The Shattered Grove",
+        "triggers": "Shattered Grove",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/xh9qW6icUISU"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/xh9qW6icUISU"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "84518491"
+      },
+      "8a673ad1-1979-4072-8bb9-953d4431f2b7": {
+        "id": "8a673ad1-1979-4072-8bb9-953d4431f2b7",
+        "name": "The Echoing Vale",
+        "triggers": "Echoing Vale",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/O5cbee0dCduc"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/O5cbee0dCduc"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "210799949"
+      },
+      "ff1799d9-b587-4c00-a675-ff1d05f47207": {
+        "id": "ff1799d9-b587-4c00-a675-ff1d05f47207",
+        "name": "The Sunken Archive",
+        "triggers": "Sunken Archive",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/uPGmcovkRNhN"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/uPGmcovkRNhN"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "313372306"
+      },
+      "b48bc269-6ec1-4eed-a6c3-88be2594f927": {
+        "id": "b48bc269-6ec1-4eed-a6c3-88be2594f927",
+        "name": "The Meridian Spire",
+        "triggers": "Meridian Spire",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/kN0wnes-MIU2"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/kN0wnes-MIU2"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "635975095"
+      },
+      "0bb2f432-a1af-4e3c-963d-5c35dcc175b4": {
+        "id": "0bb2f432-a1af-4e3c-963d-5c35dcc175b4",
+        "name": "The Verdant Recursion",
+        "triggers": "Verdant Recursion",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/G-0ifqAgzH1t"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/G-0ifqAgzH1t"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "667630594"
+      },
+      "799b1448-67a0-44d9-9f49-d53853bede73": {
+        "id": "799b1448-67a0-44d9-9f49-d53853bede73",
+        "name": "The Hollowmesh Enclave",
+        "triggers": "Hollowmesh Enclave",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/FYG9-rJ_9CAg"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/FYG9-rJ_9CAg"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "698498455"
+      },
+      "71dd4d6f-ab53-4acb-bca8-1defb27bfcd4": {
+        "id": "71dd4d6f-ab53-4acb-bca8-1defb27bfcd4",
+        "name": "The Temporal Scar",
+        "triggers": "Temporal Scar",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/LeQYJsPNQGN-"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/LeQYJsPNQGN-"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "593020029"
+      },
+      "838f178f-b6e6-405c-a8ee-e4362ac83044": {
+        "id": "838f178f-b6e6-405c-a8ee-e4362ac83044",
+        "name": "The Veil of Broken Promises",
+        "triggers": "Veil of Broken Promises",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/4bWoU5_eBeFt"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/4bWoU5_eBeFt"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "412096297"
+      },
+      "7ce13017-d16a-4c29-83a4-8f20320bb8bb": {
+        "id": "7ce13017-d16a-4c29-83a4-8f20320bb8bb",
+        "name": "The Resonance Garden",
+        "triggers": "Resonance Garden",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/aP7MIlkYl684"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/aP7MIlkYl684"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "834286233"
+      },
+      "8186f167-6a5c-4d44-9bc2-149a55bc61ec": {
+        "id": "8186f167-6a5c-4d44-9bc2-149a55bc61ec",
+        "name": "The Whispering Conduit",
+        "triggers": "Whispering Conduit",
+        "type": "location",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/_FvqXFoajHWe"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/_FvqXFoajHWe"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": false,
+        "color": "#f8ae2c",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": [],
+        "aidId": "678772338"
+      },
+      "bce39b98-720d-47ae-8dfd-a423f67ee0d9": {
+        "id": "bce39b98-720d-47ae-8dfd-a423f67ee0d9",
+        "name": "Lyra",
+        "triggers": "Lyra",
+        "type": "character",
+        "icons": [
+          "https://trinetra.mahesvara.cloud/i/_-0VeieAkQJz"
+        ],
+        "iconIndex": 0,
+        "graphics": [
+          "https://trinetra.mahesvara.cloud/i/qhNVZDS5n9t_"
+        ],
+        "graphicIndex": 0,
+        "useCustomColor": true,
+        "color": "#23c361",
+        "limit": "none",
+        "preset": "default",
+        "audioClips": []
+      }
+    },
+    "aidShortId": "KkTSascGKIiH",
+    "aidScenarioId": "12105390"
+  }
+}
